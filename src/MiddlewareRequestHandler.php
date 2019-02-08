@@ -10,9 +10,9 @@
 
 namespace Aphiria\Middleware;
 
+use Aphiria\Net\Http\Handlers\IRequestHandler;
 use Aphiria\Net\Http\IHttpRequestMessage;
 use Aphiria\Net\Http\IHttpResponseMessage;
-use Aphiria\Net\Http\Handlers\IRequestHandler;
 
 /**
  * Defines the middleware request handler
