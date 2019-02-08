@@ -10,7 +10,7 @@ before_script:
 
 script:
   - vendor/bin/phpunit --verbose
-  - php vendor.friendsofphp/php-cs-fixer/php-cs-fixer fix . --dry-run --verbose --diff
+  - php vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix . --dry-run --verbose --diff
 
 notifications:
   email:
